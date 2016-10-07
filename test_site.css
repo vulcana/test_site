@@ -1,0 +1,99 @@
+body {
+  font-family:lucida console;
+  color:#337FFF;
+  background:#000 url("http://i65.tinypic.com/2rxjjnb.png");
+  margin:100px;
+  max-width:1000px;
+}
+h1 {
+  color:rgba(51, 255, 179, 1);
+  font-size: 40px;
+}
+ul li
+{
+  display:inline;
+  padding:0px 10px 0px 10px;
+  background-color:rgba(51, 127, 255, 0.6);
+}
+a {
+  color:rgba(51, 255, 179, 1);
+}
+a:hover {
+  color:white;
+}
+header {
+  overflow:hidden;
+  text-align:center;
+  background:rgba(51, 255, 179,0.4);
+  background-image: url("http://i.giphy.com/l46CfFOng2Cz6nsjK.gif");
+  background-size:355px;
+  padding:10px;
+  width:100%;
+  margin: 0 auto;
+}
+header img {
+  border-radius:30px;
+  border:7px solid white;
+  border-color:rgba(51, 255, 179, 1);
+}
+img {
+	align:center;
+}
+input {
+  text-align:center;
+}
+article {
+  margin:0 auto;
+  max-width:700px;
+  padding:50px;
+}
+p {
+ color:black; 
+}
+li {
+  padding:10px
+}
+#email {
+	width:30%;
+	height:30px;
+	font-family:lucida console;
+	font-size:15px;
+}
+#submit {
+	height:30px;
+	width:30%;
+	font-size:15px;
+	background-color:rgba(51, 255, 179, 1);
+  border: none;
+  color: white;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: lucida console;
+}
+#Email_follow {
+  text-align:center;
+}
+#Twitter_follow {
+  position: fixed;
+  float: right;
+  all: none;
+  height: 20px;
+  padding: 1px 8px 1px 6px;
+  margin: -255px 0px 0px -120px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  background-color: #1b95e0;
+  border-radius: 3px;
+  box-sizing: border-box;
+  transform: rotate(-90deg);
+}
+@media (max-width:500px) {
+  h1 {
+     font-size:28px;
+    }
+  ul li {
+    display:block;
+     padding:5px;
+    }
+  }

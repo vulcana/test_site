@@ -1,22 +1,20 @@
-<!DOCTYPE html>
+<link href="/normalize.css" rel="stylesheet">
+<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="test_site.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <head>
   <title>This Girl Codes</title>
-  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="test_site.css">
-  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 </head>
 <body>
   <header>
     <img src="https://0.academia-photos.com/1221455/441519/10291323/s200_rivkah.brown.jpg" alt="Rivkah mugshot">
     <h1><a href="https://twitter.com/RivkahBrown">This Girl</a> Codes <i class="em em-information_desk_person"></i></h1>
-    <ul>
-      <li id="The_good" class="menu"><a href="#">The good <span class="hidden" id="emoji_1"><i class="em em---1"></i></span></a></li>
-      <li id="The_bad" class="menu"><a href="#">The bad <span class="hidden" id="emoji_2"><i class="em em--1"></i></span></a></li>
-      <li id="The_ugly" class="menu"><a href="#">The ugly <span class="hidden" id="emoji_3"><i class="em em-japanese_ogre"></i></span></a></li>
-    </ul>
+    <h4 id="The_good"><a href="#">The good <span class="hidden" id="emoji_1"><i class="em em---1"></i></span></a></h4>
+    <h4 id="The_bad"><a href="#">The bad <span class="hidden" id="emoji_2"><i class="em em--1"></i></span></a></h4>
+    <h4 id="The_ugly"><a href="#">The ugly <span class="hidden" id="emoji_3"><i class="em em-japanese_ogre"></i></span></a></h4>
   </header>
   <div id="Twitter_follow">
-    <a href="https://twitter.com/RivkahBrown" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @RivkahBrown</a>
+    <a href="https://twitter.com/RivkahBrown" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @RivkahBrown</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
   <article>
     <h2>Hacking 101</h2>
@@ -53,9 +51,13 @@
         </ol>
       <p>*If only this were true in the way you're imagining. Sadly, editing the text this way only alters the <i>local</i> version of the page on your individual computer, rather than the <i>remote</i> version that exists on the server.
   </article>
-  <form action="Email_follow.asp" action="get" id="Email_follow">
-    <input type="email" placeholder="Your email" name="userEmail" dirname="userEmail.dir" id="email" autocomplete="on">
-    <input type="button" value="Follow my journey" id="submit" onclick="myFunction">
-  </form>
-  <script type="text/javascript" src="test_site.js"></script>
-</body> 
+  <div id="Email_follow">
+    <input type="email" placeholder="Your email" id="email">
+    <input type="submit" value="Follow my journey" id="submit" onclick="myFunction">
+  </div>
+  <script>
+  $("#submit").on("click", function () {
+  alert("Thanks for following my journey!")
+    });
+  </script>
+</body>

@@ -26,7 +26,7 @@ header {
   text-align:center;
   background:rgba(51, 255, 179,0.4);
   background-image: url("http://i.giphy.com/l46CfFOng2Cz6nsjK.gif");
-  background-size:355px;
+  background-size:450px;
   padding:10px;
   width:100%;
   margin: 0 auto;
@@ -37,7 +37,7 @@ header img {
   border-color:rgba(51, 255, 179, 1);
 }
 img {
-	align:center;
+  align:center;
 }
 input {
   text-align:center;

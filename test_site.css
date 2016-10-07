@@ -94,6 +94,9 @@ li {
     }
   ul li {
     display:block;
-     padding:5px;
+    padding:5px;
     }
+  p {
+  font-size:20px;
+	}
   }

@@ -19,16 +19,16 @@ ul li
  display:none;	
 }
 #The_good:hover span {
- display: block;
+ display: inline;
 }
 #The_bad:hover span {
- display: block;
+ display: inline;
 }
 #The_ugly:hover span {
- display: block;
+ display: inline;
 }
 #myTwitter:hover span {
- display: block;
+ display: inline;
 }
 a {
   color:rgba(51, 255, 179, 1);

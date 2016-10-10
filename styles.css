@@ -15,7 +15,16 @@ ul li
   padding:0px 10px 0px 10px;
   background-color:rgba(51, 127, 255, 0.6);
 }
+.hidden {
+ display:none;	
+}
 #The_good:hover span {
+ display: block;
+}
+#The_bad:hover span {
+ display: block;
+}
+#The_ugly:hover span {
  display: block;
 }
 a {
@@ -91,7 +100,7 @@ li {
   box-sizing: border-box;
   transform: rotate(-90deg);
 }
-@media (max-width:500px) {
+@media (max-width:400px) {
   h1 {
      font-size:28px;
     }

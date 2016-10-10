@@ -41,7 +41,7 @@ header {
   text-align:center;
   background:rgba(51, 255, 179,0.4);
   background-image: url("http://i.giphy.com/l46CfFOng2Cz6nsjK.gif");
-  max-height:30%;
+  max-height:100%;
   padding:10px;
   width:100%;
   margin: 0 auto;
@@ -116,3 +116,10 @@ li {
   font-size:30em;
   line-height:24px;
 	}
+  #input {
+	  font-size:30px;
+	}
+  #submit {
+	  font-size:30px;
+	}
+		

@@ -4,14 +4,6 @@ body {
   background:#000 url("http://i65.tinypic.com/2rxjjnb.png");
   margin:100px;
   max-width:1000px;
-  -webkit-transition: opacity 2s ease-in;
-  -moz-transition: opacity 2s ease-in;
-  -ms-transition: opacity 2s ease-in;
-  -o-transition: opacity 2s ease-in;
-  transition: opacity 2s ease-in;
-}
-body.load {
-    opacity: 1;
 }
 h1 {
   color:rgba(51, 255, 179, 1);
@@ -54,6 +46,15 @@ header {
   padding:10px;
   width:100%;
   margin: 0 auto;
+  -webkit-transition: opacity 2s ease-in;
+  -moz-transition: opacity 2s ease-in;
+  -ms-transition: opacity 2s ease-in;
+  -o-transition: opacity 2s ease-in;
+  transition: opacity 2s ease-in;
+}
+header.load {
+    opacity: 1;
+}
 }
 header img {
   border-radius:30px;

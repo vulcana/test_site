@@ -58,11 +58,11 @@ header.load {
 }
 header img {
   border-radius:30px;
-  border:7px solid white;
+  border:7px solid;
   border-color:rgba(51, 255, 179, 1);
 }
 img {
-  align:center;
+  float:center;
 }
 input {
   text-align:center;

@@ -67,7 +67,7 @@ li {
 #email {
 	width:30%;
 	height:30px;
-	font-family:lucida console;
+	font-family:'Space Mono', monospace;;
 	font-size:15px;
 }
 #submit {
@@ -79,10 +79,13 @@ li {
   color: white;
   margin: 4px 2px;
   cursor: pointer;
-  font-family: lucida console;
+  font-family: 'Space Mono', monospace;;
 }
 #footer {
   text-align:center;
+}
+.about_me {
+	text-align:center;
 }
 #Twitter_follow {
   position: fixed;

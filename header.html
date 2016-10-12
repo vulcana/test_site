@@ -1,11 +1,24 @@
 <html>
+ <head>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <link href="/normalize.css" rel="stylesheet">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script> 
+      $(function(){
+      $("#header").load("header.html"); 
+      $("#footer").load("footer.html"); 
+      });
+    </script> 
+ </head>
  <body>
   <header id="header">
     <img src="https://0.academia-photos.com/1221455/441519/10291323/s200_rivkah.brown.jpg" alt="Rivkah mugshot">
-    <h1 id="About_page"><a href="about.html">This Girl</a> Codes <span class="hidden"><i class="em em-information_desk_person"></i></span></h1>
-    <h4 id="The_good"><a href="#">The good <span class="hidden" id="emoji_1"><i class="em em---1"></i></span></a></h4>
-    <h4 id="The_bad"><a href="#">The bad <span class="hidden" id="emoji_2"><i class="em em--1"></i></span></a></h4>
-    <h4 id="The_ugly"><a href="#">The ugly <span class="hidden" id="emoji_3"><i class="em em-japanese_ogre"></i></span></a></h4>
+    <h1 class="About_page nav"><a href="about.html">This Girl</a> Codes <span class="hidden"><i class="em em-information_desk_person"></i></span></h1>
+    <h4 class="Updates nav"><a href="#"><i class="em em---1 emojis"></i></a><span class="hidden" id="Updates_text">Discoveries</span></h4>
+    <h4 class="Discoveries nav"><a href="#"><i class="em em-bulb emojis"></i></a><span class="hidden" id="Discoveries_text">Discoveries</span></h4>
+    <h4 class="Contact nav"><a href="#"><i class="em em-love_letter emojis"></i></a><span class="hidden" id="Contact_text">Contact</span></h4>
   </header>
  </body>
 </html>

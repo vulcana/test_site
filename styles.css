@@ -69,7 +69,7 @@ li {
 #email {
 	width:30%;
 	height:30px;
-	font-family:'Space Mono', monospace;;
+	font-family:'Space Mono', monospace;
 	font-size:15px;
 }
 #submit {
@@ -81,13 +81,14 @@ li {
   color: white;
   margin: 4px 2px;
   cursor: pointer;
-  font-family: 'Space Mono', monospace;;
+  font-family: 'Space Mono', monospace;
 }
 #website_footer {
   text-align:center;
 }
 .about_me {
 	text-align:center;
+	margin:30px
 }
 #Twitter_follow {
   position: fixed;
@@ -124,5 +125,4 @@ li {
 	}
  article {
 	 margin: 20px 12px 0px 12px;
-	}
-		
+	}	

@@ -8,15 +8,16 @@
   <meta property="og:type" content="profile" />
   <meta property="og:image" content="http://tinypic.com?ref=2145yqr" />
   <meta property="og:url" content="https://vulcana.github.io/thisgirlcodes/" />
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script> 
+  $(function(){
+  $("#header").load("header.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script> 
 </head>
 <body>
-  <header>
-    <img src="https://0.academia-photos.com/1221455/441519/10291323/s200_rivkah.brown.jpg" alt="Rivkah mugshot">
-    <h1 id="myTwitter"><a href="https://twitter.com/RivkahBrown">This Girl</a> Codes <span class="hidden"><i class="em em-information_desk_person"></i></span></h1>
-    <h4 id="The_good"><a href="#">The good <span class="hidden" id="emoji_1"><i class="em em---1"></i></span></a></h4>
-    <h4 id="The_bad"><a href="#">The bad <span class="hidden" id="emoji_2"><i class="em em--1"></i></span></a></h4>
-    <h4 id="The_ugly"><a href="#">The ugly <span class="hidden" id="emoji_3"><i class="em em-japanese_ogre"></i></span></a></h4>
-  </header>
+  <div id="header"></div>
   <div id="Twitter_follow">
     <a href="https://twitter.com/RivkahBrown" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @RivkahBrown</a>
   </div>
@@ -55,13 +56,5 @@
         </ol>
       <p>*If only this were true in the way you're imagining. Sadly, editing the text this way only alters the <i>local</i> version of the page on your individual computer, rather than the <i>remote</i> version that exists on the server.
   </article>
-  <div id="Email_follow">
-    <input type="email" placeholder="Your email" id="email">
-    <input type="submit" value="Follow my journey" id="submit">
-  </div>
-  <script>
-  $("#submit").on("click", function () {
-  alert("Thanks for following my journey!")
-    });
-</script>
+  <div id="footer"></div>
 </body>

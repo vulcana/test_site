@@ -19,17 +19,11 @@ ul li
 .hidden {
  display:none;	
 }
-#The_good:hover span {
+.nav:hover span {
  display: inline;
 }
-#The_bad:hover span {
- display: inline;
-}
-#The_ugly:hover span {
- display: inline;
-}
-#About_page:hover span {
- display: inline;
+.emojis {
+ font-size:36px;	
 }
 a {
   color:rgba(51, 255, 179, 1);

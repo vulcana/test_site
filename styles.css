@@ -5,6 +5,20 @@ body {
   margin:100px;
   max-width:1000px;
 }
+#website_header {
+  overflow:hidden;
+  text-align:center;
+  background-image: url("http://i.giphy.com/l46CfFOng2Cz6nsjK.gif");
+  height:100%;
+  padding:10px;
+  width:100%;
+  margin: 0 auto;
+}
+#Rivkah_mugshot {
+  border-radius:30px;
+  border:7px solid;
+  border-color:rgba(51, 255, 179, 1);
+}
 h1 {
   color:rgba(51, 255, 179, 1);
   font-size:50px;
@@ -29,20 +43,6 @@ a {
 }
 a:hover {
   color:white;
-}
-#website_header {
-  overflow:hidden;
-  text-align:center;
-  background-image: url("http://i.giphy.com/l46CfFOng2Cz6nsjK.gif");
-  height:100%;
-  padding:10px;
-  width:100%;
-  margin: 0 auto;
-}
-#Rivkah_mugshot {
-  border-radius:30px;
-  border:7px solid;
-  border-color:rgba(51, 255, 179, 1);
 }
 img {
   float:center;

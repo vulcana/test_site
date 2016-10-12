@@ -25,7 +25,7 @@ h1 {
 }
 .nav
 {
-  display:block;
+  display:inline-block;
   font-size:24px;
   background-color:rgba(51, 127, 255, 0.6);
 }

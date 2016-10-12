@@ -7,12 +7,14 @@ body {
 }
 h1 {
   color:rgba(51, 255, 179, 1);
-  font-size: 40px;
+  font-size:40px;
+  width:100%;
 }
 .nav
 {
   display:block;
-  font-size:26px;
+  width:100%;
+  font-size:24px;
   padding:0px 30px 10px 30px;
   background-color:rgba(51, 127, 255, 0.6);
 }
@@ -36,7 +38,7 @@ a:hover {
   text-align:center;
   background:rgba(51, 255, 179,0.4);
   background-image: url("http://i.giphy.com/l46CfFOng2Cz6nsjK.gif");
-  max-height:100%;
+  height:100%;
   padding:10px;
   width:100%;
   margin: 0 auto;

@@ -9,10 +9,10 @@ h1 {
   color:rgba(51, 255, 179, 1);
   font-size: 40px;
 }
-ul li
+.nav
 {
   display:inline;
-  font-size:24px;
+  font-size:26px;
   padding:0px 10px 10px 10px;
   background-color:rgba(51, 127, 255, 0.6);
 }
@@ -23,7 +23,7 @@ ul li
  display: inline;
 }
 .emojis {
- font-size:36px;	
+ font-size:30px;	
 }
 a {
   color:rgba(51, 255, 179, 1);

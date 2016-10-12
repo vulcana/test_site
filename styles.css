@@ -25,6 +25,7 @@ h1 {
 }
 #navigation_bar {
   line-height: 1.45;
+  float:center;
 }
 .nav
 {

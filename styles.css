@@ -16,14 +16,14 @@ h1 {
   padding:0px 20px 0px 20px;
   background-color:rgba(51, 127, 255, 0.6);
 }
+.emojis {
+  font-size:30px;	
+}
 .hidden {
  display:none;	
 }
 .nav:hover span {
  display: block;
-}
-.emojis {
- font-size:30px;	
 }
 a {
   color:rgba(51, 255, 179, 1);

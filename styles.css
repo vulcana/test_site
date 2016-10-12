@@ -42,6 +42,9 @@ h1 {
 .nav:hover span {
  display:block;
 }
+.nav:hover .girl_emoji {
+ display:inline;
+}
 a {
   color:rgba(51, 255, 179, 1);
 }

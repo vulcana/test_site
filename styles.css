@@ -7,8 +7,7 @@ body {
 }
 h1 {
   color:rgba(51, 255, 179, 1);
-  font-size:40px;
-  width:100%;
+  font-size:50px;
 }
 .nav
 {
@@ -33,7 +32,6 @@ a:hover {
   color:white;
 }
 #website_header {
-  overflow:hidden;
   text-align:center;
   background:rgba(51, 255, 179,0.4);
   background-image: url("http://i.giphy.com/l46CfFOng2Cz6nsjK.gif");
@@ -42,7 +40,7 @@ a:hover {
   width:100%;
   margin: 0 auto;
 }
-#website_header img {
+#Rivkah_mugshot {
   border-radius:30px;
   margin:10px
   border:7px solid;

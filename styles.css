@@ -32,6 +32,7 @@ a:hover {
   color:white;
 }
 #website_header {
+  overflow:hidden;
   text-align:center;
   background-image: url("http://i.giphy.com/l46CfFOng2Cz6nsjK.gif");
   height:100%;

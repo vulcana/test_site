@@ -5,11 +5,12 @@ body {
 	justify-content: center;
 }
 .typewriter h1 {
+	font-size:50em;
 	overflow: hidden;
-	border-right: 15em solid black;
+	border-right: 1em solid black;
 	white-space: nowrap;
 	margin: 0 auto;
-	letter-spacing: .15em;
+	letter-spacing: .10em;
 	animation: typing 3s steps(40, end), blink-caret .75s step-end infinite;
 }
 @keyframes typing {

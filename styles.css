@@ -6,6 +6,7 @@ body {
 }
 .typewriter h1 {
 	font-size:5em;
+	font-family: 'Cousine', monospace;
 	overflow: hidden;
 	border-right: 0.3em solid black;
 	white-space: nowrap;
@@ -20,4 +21,7 @@ body {
 @keyframes blink-caret {
 	from, to {border-color: transparent}
 	50% {border-color:black;}
+}
+article {
+	font-family: 'Puritan', sans-serif;
 }

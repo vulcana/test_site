@@ -22,6 +22,9 @@ body {
 	from, to {border-color: transparent}
 	50% {border-color:black;}
 }
-article {
+header {
+	margin-bottom:10em;
+}
+p {
 	font-family: 'Puritan', sans-serif;
 }

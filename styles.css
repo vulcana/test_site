@@ -1,109 +1,22 @@
 body {
-  font-family: 'Space Mono', monospace;
-  color:#337FFF;
-  background:#000 url("http://i65.tinypic.com/2rxjjnb.png");
-  margin:100px;
-  max-width:1000px;
+	background: white;
+	font-family: lucida console;
 }
-#website_header {
-  overflow:hidden;
-  text-align:center;
-  background-image: url("http://i.giphy.com/l46CfFOng2Cz6nsjK.gif");
-  height:100%;
-  padding:10px;
-  width:100%;
-  margin: 0 auto;
+.typerwriter span {
+	animation: blink 0.75s infinite;
 }
-#Rivkah_mugshot {
-  border-radius:30px;
-  border:7px solid;
-  border-color:rgba(51, 255, 179, 1);
-  margin-bottom:20px;
+.typewriter h1 {
+	overflow: hidden;
+	border-right: 15em solid black;
+	white-space: nowrap;
+	margin: 0 auto;
+	animation: typing 3s steps (40, end), blink-caret .75s step-end infinite;
 }
-h1 {
-  color:rgba(51, 255, 179, 1);
-  font-size:50px;
+@keyframes typing {
+	from {width: 0;}
+	to {width: 100%;}
 }
-#navigation_bar {
-  line-height: 1.45;
-  float:center;
-}
-.nav
-{
-  display:inline-block;
-  font-size:24px;
-  font-color:rgba(51, 255, 179, 1);
-  background-color:rgba(51, 127, 255, 0.6);
-}
-.emojis {
-  font-size:30px;	
-}
-.hidden {
- display:none;	
-}
-.nav:hover span {
- display:block;
-}
-.nav:hover .girl_emoji {
- display:inline;
-}
-a {
-  color:rgba(51, 255, 179, 1);
-}
-a:hover {
-  color:white;
-}
-img {
-  float:center;
-}
-input {
-  text-align:center;
-}
-article {
-  margin:0 auto;
-  max-width:700px;
-  padding:50px;
-}
-p {
- color:black; 
-}
-li {
-  padding:10px
-}
-#email {
-	width:30%;
-	height:30px;
-	font-family:'Space Mono', monospace;
-	font-size:15px;
-}
-#submit {
-	height:30px;
-	width:30%;
-	font-size:15px;
-	background-color:rgba(51, 255, 179, 1);
-  border: none;
-  color: white;
-  margin: 4px 2px;
-  cursor: pointer;
-  font-family: 'Space Mono', monospace;
-}
-#website_footer {
-  text-align:center;
-}
-.about_me {
-	text-align:center;
-}
-#Twitter_follow {
-  position: fixed;
-  float: right;
-  height: 20px;
-  padding: 1px 8px 1px 6px;
-  margin: -255px 0px 0px -120px;
-  font-weight: 500;
-  color: #fff;
-  cursor: pointer;
-  background-color: #1b95e0;
-  border-radius: 3px;
-  box-sizing: border-box;
-  transform: rotate(-90deg);
+@keyframes blink-caret {
+	from, to {border-color: transparent;}
+	50% {border-color:black;}
 }

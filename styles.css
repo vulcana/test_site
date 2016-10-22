@@ -4,9 +4,6 @@ body {
 	display:flex;
 	justify-content: center;
 }
-.typerwriter span {
-	animation: blink 0.75s infinite;
-}
 .typewriter h1 {
 	overflow: hidden;
 	border-right: 15em solid black;

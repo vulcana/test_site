@@ -1,6 +1,6 @@
 body {
 	background: white;
-	font-family: lucida console;
+	font-family:'Puritan', sans-serif;
 	display:flex;
 	justify-content: center;
 }
@@ -24,7 +24,4 @@ body {
 }
 header {
 	margin-bottom:100em;
-}
-p {
-	font-family: 'Puritan', sans-serif;
 }

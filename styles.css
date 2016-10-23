@@ -9,7 +9,7 @@ body {
 }
 header {
 	font-family: 'Cousine', monospace;
-  width: fit-content;
+  width: 100%;
   margin-bottom:5em;
 }
 .typewriter h1 {
@@ -107,6 +107,6 @@ h2 {
   color: rgb(51,255,179);
 }
 @media (width:500px) {
-  h1 {font-size:4em}
+  h1 {font-size:2em}
   header ul li {display:block; font-size:0.8em;}
 }

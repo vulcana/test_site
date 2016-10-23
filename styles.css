@@ -1,18 +1,40 @@
 body {
-	background: white;
+	background: linear-gradient(to left top, rgba(255,173,242, 1), rgba(42,88,255,1));
+  background: -webkit-linear-gradient(to left top, rgba(83,255,83,1), rgba(42,88,255,1));
+  background: -moz-linear-gradient(to left top, rgba(83,255,83,1), rgba(42,88,255,1));
 	font-family:'Puritan', sans-serif;
-	display:flex;
-	justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  max-width: 800px;
+}
+header {
+	font-family: 'Cousine', monospace;
+  width: fit-content;
+  margin-bottom:5em;
 }
 .typewriter h1 {
-	font-size:5em;
-	font-family: 'Cousine', monospace;
+  font-size:5em;
+	background: rgba(0, 0, 0, 0.8);
 	overflow: hidden;
-	border-right: 0.3em solid black;
+	border-right: 0.3em solid;
+  border-color: rgb(0, 128, 0);
 	white-space: nowrap;
-	margin: 0 auto;
+	margin: 0.7em auto 0.5em auto;
 	letter-spacing: .10em;
 	animation: typing 2s steps(40, end), blink-caret .75s step-end infinite;
+}
+a {
+  color: rgb(51,255,179);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+header ul li {
+	display: inline;
+  color: rgb(42,88,255);
+  padding: 0 1em;
+  font-size:1.3em;
 }
 @keyframes typing {
 	from {width: 0}
@@ -22,6 +44,65 @@ body {
 	from, to {border-color: transparent}
 	50% {border-color:black;}
 }
-header {
-	margin-bottom:100em;
+header ul li:nth-child(1) {
+  -webkit-animation: fadein 4s;
+  -moz-animation: fadein 4s;
+  -ms-animation: fadein 4s;
+  -o-animation: fadein 4s;
+  animation: fadein 4s;
+}
+header ul li:nth-child(2) {
+  -webkit-animation: fadein 6s;
+  -moz-animation: fadein 6s;
+  -ms-animation: fadein 6s;
+  -o-animation: fadein 6s;
+  animation: fadein 6s;
+}
+header ul li:nth-child(3) {
+  -webkit-animation: fadein 8s;
+  -moz-animation: fadein 8s;
+  -ms-animation: fadein 8s;
+  -o-animation: fadein 8s;
+  animation: fadein 8s;
+}
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+#Twitter_follow {
+  position: fixed;
+  float: right;
+  height: 20px;
+  padding: 1px 8px 1px 6px;
+  margin: -96px 0px 0px -120px;
+  font-weight: 500;
+  color: rgb(42,88,255);
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 3px;
+  box-sizing: border-box;
+  transform: rotate(-90deg);
+}
+#Rivkah_mugshot {
+  border-radius: 30px;
+  border: 7px solid;
+  border-color: rgba(51, 255, 179, 1);
+  display: inline;
+  float: left;
+  margin-right: 2em;
+}
+p {
+  font-size: 1.5em;
+}
+#Who_dis p {
+  margin-bottom: 2em;
+  padding: 3em 2em;
+}
+ul {
+  font-size: 1.5em;
+  list-style-type: square;
+}
+h2 {
+  font-size: 2em;
+  color: rgb(51,255,179);
 }

@@ -3,13 +3,9 @@ body {
 	background: -webkit-linear-gradient(to left top, rgba(83,255,83,1), rgba(42,88,255,1));
 	background: -moz-linear-gradient(to left top, rgba(83,255,83,1), rgba(42,88,255,1));
 	font-family:'Puritan', sans-serif;
-  	margin: 0em auto;
-  	max-width: 800px;
 }
 header {
 	font-family: 'Cousine', monospace;
-	width: 100%;
-	margin: 0 auto; 
 	position: fixed;
 }
 .typewriter h1 {
@@ -19,7 +15,6 @@ header {
 	border-right: 0.3em solid;
   	border-color: rgb(0, 128, 0);
 	white-space: nowrap;
-	margin: 0.7em auto 0.5em auto;
 	letter-spacing: .10em;
 	animation: typing 2s steps(40, end), blink-caret .75s step-end infinite;
 }

@@ -109,7 +109,6 @@ h2 {
 h3 {
 	color: #c897f6;
 }
-@media (width:500px) {
-  h1 {font-size:2em}
-  header ul li {display:block; font-size:0.8em;}
-}
+@media (min-width: @screen-sm-min) { ... }
+@media (min-width: @screen-md-min) { ... }
+@media (min-width: @screen-lg-min) { ... }

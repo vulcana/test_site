@@ -17,7 +17,7 @@ body {
 	animation: typing 2s steps(40, end), blink-caret .75s step-end infinite;
 	font-family: 'Cousine', monospace;
 	margin:1em auto;
-	font-size: 10em;
+	font-size: 7em;
 }
 @keyframes typing {
 	from {width: 0}

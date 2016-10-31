@@ -118,3 +118,8 @@ h3 {
 	p{font-size: 5em;}
 	#navbar{display: block;}
 }
+@media (min-width: @screen-md-min) {
+	h1, h2, h3{font-size: 2em;}
+	p{font-size: 5em;}
+	#navbar{display: block;}
+}

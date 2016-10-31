@@ -107,7 +107,7 @@ h2 {
   color: rgb(51,255,179);
 }
 h3 {
-	color: rgba(83,255,83,1);
+	color: #c897f6;
 }
 @media (width:500px) {
   h1 {font-size:2em}

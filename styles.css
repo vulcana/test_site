@@ -36,7 +36,6 @@ a:hover {
 #navbar div {
 	display: inline;
 	color: rgb(42,88,255);
-	padding: 0 1em;
 	font-size:3em;
 }
 #navbar div:nth-child(1) {

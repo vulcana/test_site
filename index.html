@@ -35,19 +35,37 @@
 </head>
 <body>
 	<div class="container-fluid">
-		<header>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="typewriter">
-			      		<h1><a href= "index.html" id = "title">This Girl Codes</a></h1>
-	    			</div>
-	    		</div>
-	    	</div>
-	    	<div class="row" id= "navbar">
-				<div class="col-md-4"><a href="#whats_new">What's new</a></div>
-				<div class="col-md-4"><a href="#archive">Past lives</a></div>
-	      		<div class="col-md-4"><a href="#bio">Who dis</a></div>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-header">
+				<a href= "index.html" class="navbar-brand">This Girl Codes</a>
+			</div>
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+          	</button>
+			<div id= "navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+	      			<li><a href="#bio">About</a></li>
+	      			<li><a href="#whats_new">Updates</a></li>
+	      			<li class="dropdown"><a href="#archive">Previous Versions</a>
+	      				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+	      				<ul class="dropdown-menu">
+	      					<li><a href="#version_1">Version 1</a></li>
+	      				</ul>
+	      			</li>
+	      		</ul>
 	      	</div>
+	    </nav>
+			<header>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="typewriter">
+				      		<h1><a href= "index.html" id= "title">This Girl Codes</a></h1>
+		    			</div>
+		    		</div>
+		    	</div>
 			<div class="row" id="Twitter_follow">
 				<div class="col-md-4">
 					<a href="https://twitter.com/RivkahBrown" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @RivkahBrown</a>
@@ -81,7 +99,7 @@
 	    		<h2><a name="archive">What's old</a></h2>
 	    		<p>Rather than making <i>all </i>the changes directly onto the site, I've decided to version from time to time, so you can go back through its inglorious history, and see how much I've <i class="em em-book"></i>learned<i class="em em-book"></i> :</p>
 				<ul>
-					<li><a href="version_1.html">Version 1</a></li>
+					<li><a href="version_1.html" id="version_1">Version 1</a></li>
 				</ul>
 			</div>
 		</div>

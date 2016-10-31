@@ -21,6 +21,14 @@ header {
 	letter-spacing: .10em;
 	animation: typing 2s steps(40, end), blink-caret .75s step-end infinite;
 }
+@keyframes typing {
+	from {width: 0}
+	to {width: 100%}
+}
+@keyframes blink-caret {
+	from, to {border-color: transparent}
+	50% {border-color:black;}
+}
 a {
   color: rgb(51,255,179);
   text-decoration: none;
@@ -37,29 +45,21 @@ header ul li {
 #navbar {
 	margin: 0 auto;
 }
-@keyframes typing {
-	from {width: 0}
-	to {width: 100%}
-}
-@keyframes blink-caret {
-	from, to {border-color: transparent}
-	50% {border-color:black;}
-}
-header ul li:nth-child(1) {
+#navbar li:nth-child(1) {
   -webkit-animation: fadein 4s;
   -moz-animation: fadein 4s;
   -ms-animation: fadein 4s;
   -o-animation: fadein 4s;
   animation: fadein 4s;
 }
-header ul li:nth-child(2) {
+#navbar li:nth-child(2) {
   -webkit-animation: fadein 6s;
   -moz-animation: fadein 6s;
   -ms-animation: fadein 6s;
   -o-animation: fadein 6s;
   animation: fadein 6s;
 }
-header ul li:nth-child(3) {
+#navbar li:nth-child(3) {
   -webkit-animation: fadein 8s;
   -moz-animation: fadein 8s;
   -ms-animation: fadein 8s;

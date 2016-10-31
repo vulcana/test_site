@@ -1,14 +1,15 @@
 body {
 	background: linear-gradient(to left top, rgba(255,173,242, 1), rgba(42,88,255,1));
-  background: -webkit-linear-gradient(to left top, rgba(83,255,83,1), rgba(42,88,255,1));
-  background: -moz-linear-gradient(to left top, rgba(83,255,83,1), rgba(42,88,255,1));
+	background: -webkit-linear-gradient(to left top, rgba(83,255,83,1), rgba(42,88,255,1));
+	background: -moz-linear-gradient(to left top, rgba(83,255,83,1), rgba(42,88,255,1));
 	font-family:'Puritan', sans-serif;
-  margin: 0 auto;
+  	margin: 0 auto;
+  	background-size: 100%;
 }
 header {
 	font-family: 'Cousine', monospace;
-  width: 100%;
-  margin-bottom:5em;
+	width: 100%;
+	margin-bottom:5em;
 }
 .typewriter h1 {
   font-size:5em;

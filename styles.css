@@ -114,7 +114,7 @@ h3 {
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {
-	h1, h2, h3{font-size: 2em;}
+	h1, h2, h3{font-size: 0.8em;}
 	p{font-size: 5em;}
 	#navbar{display: block;}
 }

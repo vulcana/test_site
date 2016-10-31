@@ -34,6 +34,9 @@ header ul li {
   padding: 0 1em;
   font-size:1.3em;
 }
+#navbar {
+	margin: 0 auto;
+}
 @keyframes typing {
 	from {width: 0}
 	to {width: 100%}

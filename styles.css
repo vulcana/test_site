@@ -6,7 +6,7 @@ body {
 	margin: 0 auto;
 	padding:0 10em;
 }
-.typewriter {
+.typewriter h1 {
 	background: rgba(0, 0, 0, 0.8);
 	overflow: hidden;
 	border-right: 0.3em solid;

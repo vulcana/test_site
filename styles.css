@@ -3,13 +3,13 @@ body {
 	background: -webkit-linear-gradient(to left top, rgba(83,255,83,1), rgba(42,88,255,1));
 	background: -moz-linear-gradient(to left top, rgba(83,255,83,1), rgba(42,88,255,1));
 	font-family:'Puritan', sans-serif;
-  	margin: 3em auto;
+  	margin: 0em auto;
   	max-width: 800px;
 }
 header {
 	font-family: 'Cousine', monospace;
 	width: 100%;
-	margin:0 auto 5em 0;
+	margin: 3em auto; 
 	position: fixed;
 }
 .typewriter h1 {

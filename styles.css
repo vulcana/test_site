@@ -111,15 +111,15 @@ h3 {
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {
-	body{font-size: 130%;}
+	h1, h2, h3, p{font-size: 130%;}
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) {
-	body{font-size: 120%;}
+	h1, h2, h3, p{font-size: 120%;}
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) {
-	body{font-size: 110%;}
+	h1, h2, h3, p{font-size: 110%;}
 }

@@ -87,6 +87,9 @@ ul {
 h3 {
 	color: #c897f6;
 }
+#bio {
+	margin:3em 0;
+}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {
 	h1, h2, h3{font-size: 0.2em;}

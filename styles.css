@@ -47,6 +47,7 @@ header ul li {
 }
 #navbar {
 	margin: 0 auto;
+	text-align: center;
 }
 #navbar li:nth-child(1) {
   -webkit-animation: fadein 4s;

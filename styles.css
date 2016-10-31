@@ -55,7 +55,7 @@ a:hover {
   width: -moz-max-content;    /* Firefox/Gecko */
   width: -webkit-max-content; 
   padding: 1px 8px 1px 6px;
-  margin: 30px -20px 0px -20px;
+  margin: 100px -300px 300px -20px;
   font-weight: 500;
   color: rgb(42,88,255);
   cursor: pointer;

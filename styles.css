@@ -82,6 +82,7 @@ ul {
 .page-header {
   font-size: 2em;
   color: rgb(51,255,179);
+  border: none;
 }
 h3 {
 	color: #c897f6;

@@ -110,11 +110,11 @@ h3 {
 	color: #c897f6;
 }
 @media (min-width: @screen-sm-min) {
-	body{font-size: 1.3em;}
+	body{font-size: 130%;}
 }
 @media (min-width: @screen-md-min) {
-	body{font-size: 1.2em;}
+	body{font-size: 120%;}
 }
 @media (min-width: @screen-lg-min) {
-	h1{font-size: 1.1em;}
+	h1{font-size: 110%;}
 }

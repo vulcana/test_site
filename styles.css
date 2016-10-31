@@ -39,7 +39,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
-header ul li {
+#navbar div {
 	display: inline;
   color: rgb(42,88,255);
   padding: 0 1em;
@@ -49,21 +49,21 @@ header ul li {
 	margin: 0 auto;
 	text-align: center;
 }
-#navbar li:nth-child(1) {
+#navbar div:nth-child(1) {
   -webkit-animation: fadein 4s;
   -moz-animation: fadein 4s;
   -ms-animation: fadein 4s;
   -o-animation: fadein 4s;
   animation: fadein 4s;
 }
-#navbar li:nth-child(2) {
+#navbar div:nth-child(2) {
   -webkit-animation: fadein 6s;
   -moz-animation: fadein 6s;
   -ms-animation: fadein 6s;
   -o-animation: fadein 6s;
   animation: fadein 6s;
 }
-#navbar li:nth-child(3) {
+#navbar div:nth-child(3) {
   -webkit-animation: fadein 8s;
   -moz-animation: fadein 8s;
   -ms-animation: fadein 8s;

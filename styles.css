@@ -16,7 +16,7 @@ body {
 	letter-spacing: .10em;
 	animation: typing 2s steps(40, end), blink-caret .75s step-end infinite;
 	font-family: 'Cousine', monospace;
-	margin:2em auto;
+	margin:1em auto;
 	font-size: 10em;
 }
 @keyframes typing {
@@ -59,7 +59,7 @@ a:hover {
   width: -moz-max-content;    /* Firefox/Gecko */
   width: -webkit-max-content; 
   padding: 1px 8px 1px 6px;
-  margin: 100px -500px 300px -20px;
+  margin: 1em 5em 10em 1em;
   font-weight: 500;
   color: rgb(42,88,255);
   cursor: pointer;

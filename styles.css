@@ -4,7 +4,7 @@ body {
 	background: -moz-linear-gradient(to left top, rgba(83,255,83,1), rgba(42,88,255,1));
 	font-family:'Puritan', sans-serif;
 	margin: 0 auto;
-	padding:0 2em;
+	padding:0 5em;
 }
 .typewriter h1 {
 	color: rgb(51,255,179);
@@ -54,7 +54,7 @@ a:hover {
 #Twitter_follow {
   position: fixed;
   float: right;
-  height: 20px;
+  height: 30px;
   width: intrinsic;           /* Safari/WebKit uses a non-standard name */
   width: -moz-max-content;    /* Firefox/Gecko */
   width: -webkit-max-content; 
@@ -95,7 +95,7 @@ h3 {
 	color: #c897f6;
 }
 #bio {
-	margin:3em 0;
+	margin-left:3em;
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {

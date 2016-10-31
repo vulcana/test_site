@@ -33,7 +33,7 @@ a:hover {
   text-decoration: underline;
 }
 #navbar li {
-	color: rgb(42,88,255);
+	color: rgb(42,88,255) !important;
 }
 #navbar {
   -webkit-animation: fadein 4s;

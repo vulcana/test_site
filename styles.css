@@ -15,8 +15,8 @@ body {
 	letter-spacing: .10em;
 	animation: typing 2s steps(40, end), blink-caret .75s step-end infinite;
 	font-family: 'Cousine', monospace;
-	margin:5em auto;
-	font-size: 10em;
+	margin:15em auto;
+	font-size: 15em;
 }
 @keyframes typing {
 	from {width: 0}
@@ -47,6 +47,9 @@ a:hover {
   from { opacity: 0; }
   to   { opacity: 1; }
 }
+#navbar_brand {
+	font-size: 2.5em;
+}
 #Twitter_follow {
   position: fixed;
   float: right;
@@ -55,7 +58,7 @@ a:hover {
   width: -moz-max-content;    /* Firefox/Gecko */
   width: -webkit-max-content; 
   padding: 1px 8px 1px 6px;
-  margin: 100px -300px 300px -20px;
+  margin: 100px -500px 300px -20px;
   font-weight: 500;
   color: rgb(42,88,255);
   cursor: pointer;

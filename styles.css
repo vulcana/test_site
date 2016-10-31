@@ -6,7 +6,7 @@ body {
 	margin: 0 auto;
 	padding:0 10em;
 }
-#title {
+h1 {
   	font-size:5em;
 	background: rgba(0, 0, 0, 0.8);
 	overflow: hidden;

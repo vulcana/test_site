@@ -74,7 +74,7 @@ a:hover {
   float: left;
   margin-right: 2em;
 }
-p {
+p, ul {
   font-size: 1.5em;
 }
 #Who_dis p {
@@ -95,12 +95,10 @@ h3 {
 @media (min-width: @screen-sm-min) {
 	h1, h2, h3{font-size: 0.2em;}
 	p{font-size: 5em;}
-	#navbar li{display: block;}
 	body{line-height: 0.7em}
 }
 @media (min-width: @screen-md-min) {
 	h1, h2, h3{font-size: 1em;}
 	p{font-size: 5em;}
-	#navbar li{display: block;}
 	body{line-height: 0.8em}
 }

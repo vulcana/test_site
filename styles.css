@@ -3,7 +3,6 @@ body {
   background: -webkit-linear-gradient(to left top, rgba(83,255,83,1), rgba(42,88,255,1));
   background: -moz-linear-gradient(to left top, rgba(83,255,83,1), rgba(42,88,255,1));
 	font-family:'Puritan', sans-serif;
-  display: flex;
   margin: 0 auto;
 }
 header {

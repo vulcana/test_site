@@ -36,31 +36,16 @@ a {
 a:hover {
   text-decoration: underline;
 }
-#navbar div {
-	display: inline;
+#navbar {
 	color: rgb(42,88,255);
 	font-size:3em;
 }
-#navbar div:nth-child(1) {
+#navbar {
   -webkit-animation: fadein 4s;
   -moz-animation: fadein 4s;
   -ms-animation: fadein 4s;
   -o-animation: fadein 4s;
   animation: fadein 4s;
-}
-#navbar div:nth-child(2) {
-  -webkit-animation: fadein 6s;
-  -moz-animation: fadein 6s;
-  -ms-animation: fadein 6s;
-  -o-animation: fadein 6s;
-  animation: fadein 6s;
-}
-#navbar div:nth-child(3) {
-  -webkit-animation: fadein 8s;
-  -moz-animation: fadein 8s;
-  -ms-animation: fadein 8s;
-  -o-animation: fadein 8s;
-  animation: fadein 8s;
 }
 @keyframes fadein {
   from { opacity: 0; }

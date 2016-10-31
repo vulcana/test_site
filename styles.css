@@ -9,7 +9,7 @@ body {
 header {
 	font-family: 'Cousine', monospace;
 	width: 100%;
-	margin: 3em auto; 
+	margin: 0 auto; 
 	position: fixed;
 }
 .typewriter h1 {
@@ -40,13 +40,9 @@ a:hover {
 }
 #navbar div {
 	display: inline;
-  color: rgb(42,88,255);
-  padding: 0 1em;
-  font-size:3em;
-}
-#navbar {
-	margin: 0 auto;
-	text-align: center;
+	color: rgb(42,88,255);
+	padding: 0 1em;
+	font-size:3em;
 }
 #navbar div:nth-child(1) {
   -webkit-animation: fadein 4s;

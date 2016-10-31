@@ -87,6 +87,9 @@ a:hover {
   box-sizing: border-box;
   transform: rotate(-90deg);
 }
+#updates {
+	margin-top: 10em;
+}
 #Rivkah_mugshot {
   border-radius: 30px;
   border: 7px solid;
@@ -115,13 +118,13 @@ h3 {
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {
-	h1, h2, h3{font-size: 0.6em;}
+	h1, h2, h3{font-size: 0.2em;}
 	p{font-size: 5em;}
 	#navbar li{display: block;}
 	body{line-height: 0.7em}
 }
 @media (min-width: @screen-md-min) {
-	h1, h2, h3{font-size: 0.6em;}
+	h1, h2, h3{font-size: 1em;}
 	p{font-size: 5em;}
 	#navbar li{display: block;}
 	body{line-height: 0.8em}

@@ -6,11 +6,7 @@ body {
 	margin: 0 auto;
 	padding:0 10em;
 }
-header,  {
-	font-family: 'Cousine', monospace;
-	margin:0 auto;
-}
-.typewriter h1 {
+#title {
   	font-size:5em;
 	background: rgba(0, 0, 0, 0.8);
 	overflow: hidden;
@@ -19,6 +15,8 @@ header,  {
 	white-space: nowrap;
 	letter-spacing: .10em;
 	animation: typing 2s steps(40, end), blink-caret .75s step-end infinite;
+	font-family: 'Cousine', monospace;
+	margin:0 auto;
 }
 @keyframes typing {
 	from {width: 0}
@@ -62,9 +60,6 @@ a:hover {
   border-radius: 3px;
   box-sizing: border-box;
   transform: rotate(-90deg);
-}
-#updates {
-	margin-top: 10em;
 }
 #Rivkah_mugshot {
   border-radius: 30px;

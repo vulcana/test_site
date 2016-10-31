@@ -16,6 +16,7 @@ body {
 	animation: typing 2s steps(40, end), blink-caret .75s step-end infinite;
 	font-family: 'Cousine', monospace;
 	margin:0 auto;
+	font-size: 4em;
 }
 @keyframes typing {
 	from {width: 0}
@@ -54,7 +55,7 @@ a:hover {
   width: -moz-max-content;    /* Firefox/Gecko */
   width: -webkit-max-content; 
   padding: 1px 8px 1px 6px;
-  margin: -96px 0px 0px -90px;
+  margin: 30px -20px 0px -20px;
   font-weight: 500;
   color: rgb(42,88,255);
   cursor: pointer;

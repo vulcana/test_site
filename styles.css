@@ -9,6 +9,7 @@ header {
 	font-family: 'Cousine', monospace;
 	width: 100%;
 	margin:0 auto 5em 0;
+	position: absolute;
 }
 .typewriter h1 {
   	font-size:5em;

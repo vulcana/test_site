@@ -35,10 +35,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
-.navbar-brand {
-	font-size: 1.5em;
-}
-#navbar {
+#navbar li {
 	color: rgb(42,88,255);
 }
 #navbar {
@@ -85,7 +82,6 @@ p {
   padding: 3em 2em;
 }
 ul {
-  font-size: 1.5em;
   list-style-type: square;
 }
 h2 {

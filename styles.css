@@ -114,16 +114,7 @@ h3 {
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {
-	h1, h2, h3, p{font-size: 120%;}
-	p{font-size: 130%;}
-}
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {
-	h1, h2, h3, p{font-size: 110%;}
-	p{font-size: 120%;}}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) {
-	h1, h2, h3, p{font-size: 130%;}
-	p{font-size: 140%;}
+	h1, h2, h3{font-size: 2em;}
+	p{font-size: 5em;}
+	#navbar{display: block;}
 }

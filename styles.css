@@ -21,6 +21,10 @@ body {
 	margin:1em auto 0.5em auto;
 	font-size: 6em;
 }
+.typewriter {
+	text-align: center;
+	width: fit-content;
+}
 @keyframes typing {
 	from {width: 0}
 	to {width: 100%}

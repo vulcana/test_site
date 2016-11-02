@@ -50,8 +50,10 @@ a:hover {
   from { opacity: 0; }
   to   { opacity: 1; }
 }
-#navbar_brand {
-	font-size: 2.5em;
+.navbar_brand {
+	font-size: 3em;
+	font-family: 'Cousine', monospace;
+	color: rgb(51,255,179);
 }
 #Twitter_follow {
   position: fixed;

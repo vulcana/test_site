@@ -4,7 +4,7 @@ body {
 	background: -moz-linear-gradient(to left top, rgba(83,255,83,1), rgba(42,88,255,1));
 	font-family:'Puritan', sans-serif;
 	margin: 0 auto !important;
-	padding:0 5em !important;
+	padding:0 8em !important;
 }
 .typewriter h1 {
 	color: rgb(51,255,179);
@@ -16,7 +16,7 @@ body {
 	letter-spacing: .10em;
 	animation: typing 2s steps(40, end), blink-caret .75s step-end infinite;
 	font-family: 'Cousine', monospace;
-	margin:1em auto;
+	margin:2em auto;
 	font-size: 7em;
 }
 @keyframes typing {
@@ -54,12 +54,12 @@ a:hover {
 #Twitter_follow {
   position: fixed;
   float: right;
-  height: 40px;
+  height: 35px;
   width: intrinsic;           /* Safari/WebKit uses a non-standard name */
   width: -moz-max-content;    /* Firefox/Gecko */
   width: -webkit-max-content; 
   padding: 1px 8px 1px 6px;
-  margin: -5em 8em 15em -5em;
+  margin: -5em 8em 17em -5em;
   font-weight: 500;
   color: rgb(42,88,255);
   cursor: pointer;
@@ -97,14 +97,8 @@ h3 {
 #bio {
 	margin-left:3em;
 }
-/* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {
 	h1, h2, h3{font-size: 0.2em;}
 	p{font-size: 5em;}
 	body{line-height: 0.7em}
-}
-@media (min-width: @screen-md-min) {
-	h1, h2, h3{font-size: 1em;}
-	p{font-size: 5em;}
-	body{line-height: 0.8em}
 }

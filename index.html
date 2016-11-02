@@ -1,103 +1,105 @@
 <DOCTYPE! html>
 <html lang="en">
-<head>
-	<title>This Girl Codes</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="styles.css">
-  	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Cousine|Puritan" rel="stylesheet">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script>
-		$(function() {
-  			$('a[href*="#"]:not([href="#"])').click(function() {
-    			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      					var target = $(this.hash);
-      					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      			if (target.length) {
-        			$('html, body').animate({
-          				scrollTop: target.offset().top
-        				}, 1000);
-        				return false;
-      				}
-    			}
-  			});
-		});
-	</script>
-	<script>
-  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-86183853-1', 'auto');
-  ga('send', 'pageview');
-	</script>
-</head>
-<body>
-	<div class="container-fluid">
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-		            <span class="sr-only">Toggle navigation</span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-          		</button>
-          		<a href= "#title" class="navbar-brand">This Girl Codes</a>
-			</div>
-			<div id= "navbar" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-	      			<li><a href="#bio">About</a></li>
-	      			<li><a href="#whats_new">Updates</a></li>
-	      			<li class="dropdown open">
-	      				<a href="#archive" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Archive<span class="caret"></span></a>
-	      				<ul class="dropdown-menu">
-	      					<li><a href="#version_1">Version 1</a></li>
-	      				</ul>
-	      			</li>
-	      		</ul>
-	      	</div>
-	    </nav>
-		<header>
-			<div class="typewriter">
-				<h1>This Girl Codes</h1>
-			</div>
-			<div id="Twitter_follow">
-				<a href="https://twitter.com/RivkahBrown">Follow @RivkahBrown</a>
-			</div>
-		</header>
-		<div class="row">
-		  	<div name= "whats_new" id= "updates" class="col-md-12">
-			    <div class="page-header"><h2>What's new</h2></div>
-			    <h3>Week 4</h3>
-			    <p>The learning is <i>intense</i> guys! So much so that I've built a <b>whole new version</b> of the site. This won't be a regular occurence - I'll be making regular tweaks directly onto the site, but when I'm making more major changes, I'll version.</p>
-			    <p>You'll be able to find old versions of the site <a href= "#archive">here</a> (or by clicking on the 'Past lives' link in the header navigation bar.</p>
-			    <p>Here are the things that're new in Version 2:</p>
-			    <ul>
-			      <li>The <b>typewriter effect</b> for the header (using <a href= "https://css-tricks.com/snippets/css/typewriter-effect/">this</a>).</li>
-			      <li>The <b>colour gradient effect</b> for the background (using the same colour-scheme as <a href= "http://i.giphy.com/l46CfFOng2Cz6nsjK.gif">this</a> gif that featured in Version 1's header, selected using <a href="http://instant-eyedropper.com/">this</a> eyedropper Chrome extension).</li>
-			      <li><b>Smooth scrolling</b> - you know how when you're on a Wikipedia page, and you select a link to another part of the page, and it jumps straight there? I wanted to smooth this movement out to make it slicker. Again, I've copycatted my code from the wonderful <a href= "https://css-tricks.com/snippets/jquery/smooth-scrolling/">CSS-Tricks</a>.</li>
-			      <li>The navigation bar items just beneath the header fade in! An incredible trick <a href= "stackoverflow.com/questions/11679567/using-css-for-fade-in-effect-on-page-load">Stack Overflow</a> taught me.</li>
-			    </ul>
-	  		</div>
-	  		<div id= "Who_dis" class="row" name="bio">
-	  			<div class="page-header"><h2>About</h2></div>
-	  			<div class="col-md-2">
-	    			<img src="https://0.academia-photos.com/1221455/441519/10291323/s200_rivkah.brown.jpg" alt="Rivkah mugshot" id="Rivkah_mugshot">
-	    		</div>
-	    		<div class="col-md-10" id="bio">
-	    			<p>I'm Rivkah, I'm a <a href= "http://www.theinklingmag.com/now-then/black-bodies-matter/">writer</a> and <a href= "http://theinklingmag.com/about">editor</a> that wants to build as well as write for websites. This <i>might</i> be a terrible idea. Wish me luck! <i class="em em-sparkles"></i></p>
-	    		</div>
-	  		</div>
-	  		<div name="archive" id= "Archive" class="col-md-12">
-	    		<div class="page-header"><h2>Archive</h2></div>
-	    		<p>Rather than making <i>all </i>the changes directly onto the site, I've decided to version from time to time, so you can go back through its inglorious history, and see how much I've <i class="em em-book"></i>learned<i class="em em-book"></i> :</p>
-				<ul>
-					<li><a href="version_1.html" id="version_1">Version 1</a></li>
-				</ul>
+	<head>
+		<title>This Girl Codes</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Bootstrap CSS first -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	  	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cousine|Puritan" rel="stylesheet">
+		<!-- Bootstrap JS first -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script>
+			$(function() {
+	  			$('a[href*="#"]:not([href="#"])').click(function() {
+	    			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      					var target = $(this.hash);
+	      					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      			if (target.length) {
+	        			$('html, body').animate({
+	          				scrollTop: target.offset().top
+	        				}, 1000);
+	        				return false;
+	      				}
+	    			}
+	  			});
+			});
+		</script>
+		<script>
+	  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-86183853-1', 'auto');
+	  ga('send', 'pageview');
+		</script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			            <span class="sr-only">Toggle navigation</span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+	          		</button>
+	          		<a href= "#title" class="navbar-brand">This Girl Codes</a>
+				</div>
+				<div id= "navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+		      			<li><a href="#bio">About</a></li>
+		      			<li><a href="#whats_new">Updates</a></li>
+		      			<li class="dropdown open">
+		      				<a href="#archive" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Archive<span class="caret"></span></a>
+		      				<ul class="dropdown-menu">
+		      					<li><a href="#version_1">Version 1</a></li>
+		      				</ul>
+		      			</li>
+		      		</ul>
+		      	</div>
+		    </nav>
+			<header>
+				<div class="typewriter">
+					<h1>This Girl Codes</h1>
+				</div>
+				<div id="Twitter_follow">
+					<a href="https://twitter.com/RivkahBrown">Follow @RivkahBrown</a>
+				</div>
+			</header>
+			<div class="row">
+			  	<div name= "whats_new" id= "updates" class="col-md-12">
+				    <div class="page-header"><h2>What's new</h2></div>
+				    <h3>Week 4</h3>
+				    <p>The learning is <i>intense</i> guys! So much so that I've built a <b>whole new version</b> of the site. This won't be a regular occurence - I'll be making regular tweaks directly onto the site, but when I'm making more major changes, I'll version.</p>
+				    <p>You'll be able to find old versions of the site <a href= "#archive">here</a> (or by clicking on the 'Past lives' link in the header navigation bar.</p>
+				    <p>Here are the things that're new in Version 2:</p>
+				    <ul>
+				      <li>The <b>typewriter effect</b> for the header (using <a href= "https://css-tricks.com/snippets/css/typewriter-effect/">this</a>).</li>
+				      <li>The <b>colour gradient effect</b> for the background (using the same colour-scheme as <a href= "http://i.giphy.com/l46CfFOng2Cz6nsjK.gif">this</a> gif that featured in Version 1's header, selected using <a href="http://instant-eyedropper.com/">this</a> eyedropper Chrome extension).</li>
+				      <li><b>Smooth scrolling</b> - you know how when you're on a Wikipedia page, and you select a link to another part of the page, and it jumps straight there? I wanted to smooth this movement out to make it slicker. Again, I've copycatted my code from the wonderful <a href= "https://css-tricks.com/snippets/jquery/smooth-scrolling/">CSS-Tricks</a>.</li>
+				      <li>The navigation bar items just beneath the header fade in! An incredible trick <a href= "stackoverflow.com/questions/11679567/using-css-for-fade-in-effect-on-page-load">Stack Overflow</a> taught me.</li>
+				    </ul>
+		  		</div>
+		  		<div id= "Who_dis" class="row" name="bio">
+		  			<div class="page-header"><h2>About</h2></div>
+		  			<div class="col-md-2">
+		    			<img src="https://0.academia-photos.com/1221455/441519/10291323/s200_rivkah.brown.jpg" alt="Rivkah mugshot" id="Rivkah_mugshot">
+		    		</div>
+		    		<div class="col-md-10" id="bio">
+		    			<p>I'm Rivkah, I'm a <a href= "http://www.theinklingmag.com/now-then/black-bodies-matter/">writer</a> and <a href= "http://theinklingmag.com/about">editor</a> that wants to build as well as write for websites. This <i>might</i> be a terrible idea. Wish me luck! <i class="em em-sparkles"></i></p>
+		    		</div>
+		  		</div>
+		  		<div name="archive" id= "Archive" class="col-md-12">
+		    		<div class="page-header"><h2>Archive</h2></div>
+		    		<p>Rather than making <i>all </i>the changes directly onto the site, I've decided to version from time to time, so you can go back through its inglorious history, and see how much I've <i class="em em-book"></i>learned<i class="em em-book"></i> :</p>
+					<ul>
+						<li><a href="version_1.html" id="version_1">Version 1</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
-	</div>
-</body>
+	</body>
 </html>

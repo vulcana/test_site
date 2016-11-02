@@ -95,7 +95,7 @@ h3 {
 	color: #c897f6;
 }
 #bio {
-	margin-left:3em;
+	float: left;
 }
 @media (min-width: @screen-sm-min) {
 	h1, h2, h3{font-size: 0.2em;}

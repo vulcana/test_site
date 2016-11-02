@@ -77,8 +77,6 @@ a:hover {
   border: 7px solid;
   border-color: rgba(51, 255, 179, 1);
   display: inline;
-  float: left;
-  margin-right: 2em;
 }
 p, ul, #Twitter_follow {
   font-size: 1.5em;
